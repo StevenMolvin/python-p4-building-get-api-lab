@@ -25,6 +25,7 @@ def upgrade():
     op.create_table('bakeries',
     sa.Column('id', sa.Integer(), nullable=False),
     sa.PrimaryKeyConstraint('id')
+    
     )
     # ### end Alembic commands ###
 
